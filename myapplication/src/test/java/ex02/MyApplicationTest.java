@@ -1,4 +1,4 @@
-package ex01;
+package ex02;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -17,7 +17,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 //@ContextConfiguration(classes= {MyApplication.class})
  */
 @SpringBootTest
-public class MyApplicationTest02 {
+public class MyApplicationTest {
 	
 	@Autowired
 	private MyComponent myComponent;
